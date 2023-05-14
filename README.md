@@ -19,7 +19,7 @@ Nix is a build system that is a unique combination both _reproducible_ and _comp
 
   - The build conventions for different languages etc. is inconsistent
 
-- Despite having a custom programming language, performing functions basic to Nix use is not well supported, requiring strange hacks in the nixpgs and Flakes APIs/EDSLs, further obscuring understandability.
+- Despite having a custom programming language, performing functions basic to Nix use is not well supported, requiring strange hacks in the nixpgs and Flakes APIs/EDSLs, further obscuring understandability. See the blog post linked above.
 
 - The Nix implementation is extremely buggy. A lot of functionality simply doesn't work as documented for all but the most straightforward use cases.
 
