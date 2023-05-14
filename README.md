@@ -12,6 +12,8 @@ Nix is a build system that is a unique combination both _reproducible_ and _comp
 
 
 - Nix uses a programming language to configure builds. I want to configure my build files from a configuration file, not a programming language.
+
+  Whilst developers just want to tell the build system what they want and have it get out of their way, Nix insists in combining the _what_ of configuration with the _how_. This both obscures the programmer's intent and leads to unnecesary verbosity. Compare a typical `flake.nix` with an NPM `package.json`.
   
   - Getting anything done in this language is immensely difficult. [Blame for this can be assigned to various places](https://www.haskellforall.com/2022/08/stop-calling-everything-nix.html), but the point remains that Nix as it stands has a severe usability problem
 
